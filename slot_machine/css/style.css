@@ -1,0 +1,69 @@
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+
+body{
+    text-align: center;
+    margin-left: 10px;
+    color: orangered;
+    
+
+  }
+  .reels{
+    display: inline;
+    width: 100%;
+    text-align: center;
+    float:left;
+    clear: both;
+  }
+
+  .secOne{
+    height: 300px;
+    width: 29.3333%;
+    border: 3px solid orangered;
+    float:left;
+
+  }
+    
+  .secTwo{
+    height: 300px;
+    width: 29.3333%;
+    border: 3px solid purple;
+    float:left;
+  }
+  
+    
+
+  .secThree{
+    height: 300px;
+    width: 29.3333%;
+    border: 3px solid greenyellow;
+    float:left;
+  }
+    
+  img{
+    height:250px;
+  }
+
+button{
+  width: 155px;
+  border: 1px solid black;
+  background-color: orangered;
+  padding: 5px;
+  text-align: center;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
